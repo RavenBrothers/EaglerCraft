@@ -1,4 +1,5 @@
 -------------- Copyright Eagler Devs ---------------------
+-
 Instructions:
 ---------------
 Edit the  package.json file for your CLIENT and customize the client
