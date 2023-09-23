@@ -10,17 +10,36 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="EAGLER WEB DEV CONSOLE" />
 		<meta property="og:description" content="Play minecraft 1.12 in your browser" />
-		<meta property="og:image" content="favicon.png" />
+		<meta property="og:image" content="/favicon.png" />
 		<link type="image/png" rel="shortcut icon" href="/favicon.png" />
 		  <link rel="stylesheet" href="styles.css">
     	</head>
 	<body>
+		
          <div id="console"></div>
+		 <div class="modal-content" id="console"></div>
     <input type="text" id="input" placeholder="EAGLER:\>" autofocus>
-
-	<script>
+		
+   <script>
+        const consoleModal = document.getElementById("consoleModal");
         const consoleDiv = document.getElementById("console");
         const input = document.getElementById("input");
+
+        // Define available commands and their descriptions
+        const availableCommands = {
+            "help": "Display a list of available commands.",
+            "clear": "Clear the console screen.",
+           
+        };
+
+        // Function to display the list of available commands
+        function displayAvailableCommands() {
+            writeToConsole("Available Commands:");
+            for (const command in availableCommands) {
+                const description = availableCommands[command];
+                writeToConsole(`- ${command}: ${description}`);
+            }
+        }
 
         // Function to display a message in the console
         function writeToConsole(message) {
@@ -33,10 +52,14 @@
             const command = input.value.trim();
             input.value = "";
 
-            // Display the entered command in the console
-            writeToConsole(input.placeholder + command);
-		
-            writeToConsole("Command not recognized: " + command);
+            if (command === "help") {
+                displayAvailableCommands();
+            } else if (command === "clear") {
+                consoleDiv.innerHTML = "";
+            } else {
+              
+                writeToConsole(input.placeholder + command);
+            }
         }
 
         // Handle Enter key press in the input field
@@ -44,7 +67,8 @@
             if (event.key === "Enter") {
                 handleInput();
             }
-        }); 
+        });
+
         writeToConsole("(c) Eagler Devs. All rights reserved.");
         writeToConsole("EAGLER WEB DEV CONSOLE  [Version 0.0.1-alpha]");
         writeToConsole("EAGLER:\\> Welcome to the Web Dev Console");
