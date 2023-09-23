@@ -2,9 +2,9 @@
 
 /* General styles */
 
-        body {
-            background-color: white;
-            color: black;
+       body {
+            background-color: black;
+            color: white;
             font-family: "Courier New", monospace;
             margin: 0;
             padding: 0;
