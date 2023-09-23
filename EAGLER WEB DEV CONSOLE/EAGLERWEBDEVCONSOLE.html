@@ -15,16 +15,7 @@
 		  <link rel="stylesheet" href="styles.css">
     	</head>
 	<body>
-	    <button id="openConsoleButton">Open Console</button>
-    <div id="consoleModal" class="modal">
-        <span class="close" id="closeConsoleButton">×</span>
-        <div class="modal-content" id="console"></div>
-        <input type="text" id="input" placeholder="EAGLER:\>" autofocus>
-    </div>
-    <script>
-        const openConsoleButton = document.getElementById("openConsoleButton");
-        const closeConsoleButton = document.getElementById("closeConsoleButton");
-        const consoleModal = document.getElementById("consoleModal");
+		    <script>
         const consoleDiv = document.getElementById("console");
         const input = document.getElementById("input");
 
@@ -50,23 +41,11 @@
             if (event.key === "Enter") {
                 handleInput();
             }
-        });
-
-        // Open the console when the button is clicked
-        openConsoleButton.addEventListener("click", function() {
-            consoleModal.style.display = "block";
-        });
-
-        // Close the console when the close button is clicked
-        closeConsoleButton.addEventListener("click", function() {
-            consoleModal.style.display = "none";
-        });
-
-        writeToConsole("EAGLER WEB DEV CONSOLE by Eagler Devs [Version 0.0.1-alpha]");
+        }); 
         writeToConsole("(c) Eagler Devs. All rights reserved.");
-        writeToConsole("");
-        writeToConsole("EAGLER:\\> Welcome to the Web Dev Console");
-        writeToConsole("EAGLER:\\> Type 'help' for a list of commands.");
+        writeToConsole("EAGLER WEB DEV CONSOLE  [Version 0.0.1-alpha]");
+        writeToConsole("C:\\> Welcome to the Web Dev Console");
+        writeToConsole("C:\\> Type 'help' for a list of commands.");
     </script>
 	</body>
 </html>
