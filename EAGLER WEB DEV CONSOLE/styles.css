@@ -10,6 +10,16 @@
             padding: 0;
             overflow: hidden;
         }
+#openConsoleButton {
+            background-color: #0074d9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
 
  .modal {
             display: none;
@@ -32,6 +42,14 @@
             width: 300px;
             padding: 10px;
             overflow-y: auto;
+        }
+
+ .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            cursor: pointer;
         }
 
         #input {
