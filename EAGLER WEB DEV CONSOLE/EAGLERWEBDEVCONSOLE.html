@@ -16,9 +16,8 @@
     	</head>
 	<body>
 
-		<button id="openConsoleButton">Open Console</button>
+		
          <div id="consoleModal"></div>
-		<span class="close" id="closeConsoleButton">×</span>
 	<div class="modal-content" id="console"></div>
     <input type="text" id="input" placeholder="EAGLER:\>" autofocus>
 		   </div>
@@ -70,15 +69,6 @@
             if (event.key === "Enter") {
                 handleInput();
             }
-        });
-
-	           openConsoleButton.addEventListener("click", function() {
-            consoleModal.style.display = "block";
-        });
-
-    
-        closeConsoleButton.addEventListener("click", function() {
-            consoleModal.style.display = "none";
         });
 	   
         writeToConsole("(c) Eagler Devs. All rights reserved.");
