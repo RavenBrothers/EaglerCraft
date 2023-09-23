@@ -16,10 +16,13 @@
     	</head>
 	<body>
 
-		
-         <div id="console"></div>
-		 <div class="modal-content" id="console"></div>
+		<button id="openConsoleButton">Open Console</button>
+         <div id="consoleModal"></div>
+		<span class="close" id="closeConsoleButton">×</span>
+	<div class="modal-content" id="console"></div>
     <input type="text" id="input" placeholder="EAGLER:\>" autofocus>
+		   </div>
+
 		
    <script>
         const consoleModal = document.getElementById("consoleModal");
@@ -30,7 +33,6 @@
         const availableCommands = {
             "help": "Display a list of available commands.",
             "clear": "Clear the console screen.",
-           
         };
 
         // Function to display the list of available commands
@@ -70,6 +72,15 @@
             }
         });
 
+	           openConsoleButton.addEventListener("click", function() {
+            consoleModal.style.display = "block";
+        });
+
+    
+        closeConsoleButton.addEventListener("click", function() {
+            consoleModal.style.display = "none";
+        });
+	   
         writeToConsole("(c) Eagler Devs. All rights reserved.");
         writeToConsole("EAGLER WEB DEV CONSOLE  [Version 0.0.1-alpha]");
         writeToConsole("EAGLER:\\> Welcome to the Web Dev Console");
