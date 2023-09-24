@@ -4,7 +4,7 @@ Using Languages:
 -
 HTML -- Use Index.html
 -
-CSS -- Use  [<link rel="stylesheet" href="styles.css">]
+CSS -- Use  < link rel="stylesheet" href="styles.css"  >
 -
 JS -- Use <script type="text/javascript" src=""></script>
 -
