@@ -23,7 +23,7 @@
 				if(document.location.href.startsWith("file:")) {
 					alert("please use HTTP, do not open this file locally, offline version is coming soon! For now run a local HTTP server and load it via HTTP");
 				}else {
-					window.eaglercraftXOpts = {
+					window.eaglercraftOpts = {
 						container: "game_frame",
 						assetsURI: "",
 						    serverWorkerURI: "worker_bootstrap.js",
@@ -47,8 +47,8 @@
             addr: "wss://relay.shhnowisnottheti.me/",
             name: "ayunami relay #1",
             primary: relayId == 2
-		    },
-    ],
+   },
+					],
 					};
 					main();
 				}
