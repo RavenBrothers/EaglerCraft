@@ -2,6 +2,7 @@ import tkinter
 from tkinter import *
 import webview
 
+
 root = tkinter.Tk()
 root.title('EaglerCraft Launcher')
 root.geometry( "600x600" )
