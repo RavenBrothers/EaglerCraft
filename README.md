@@ -23,4 +23,11 @@ lax1dude:
   - Added seamless fullscreen
   - Created the replit
 
- 
+ AR-DEV-1:
+  - Created Eagler guide so ppl can code with their favorite coding languages
+  - Bug fixes
+  - Made the Eagler Dev Console
+
+ BtPlayzX:
+ - Created the Eaglercraft Launcher using Python
+ - Expanded the server list
