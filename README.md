@@ -6,6 +6,7 @@ Mojang, if you are going to DMCA this, please read lax1dude's message on this we
 It cannot be pushed away, It will live on
 
 xxxxxxxxxxxxx
+-
 Credits to the Creators of Eaglercraft:
 -
 lax1dude:  
@@ -28,7 +29,13 @@ lax1dude:
   - Bug fixes
   - Made the Repo
   - Imported assets for 1.14
+  - Is OP
 
  BtPlayzX:
  - Created the Eaglercraft Launcher using Python
  - Expanded the server list
+ - Is OP
+
+FlamePVPCodes:
+ - Made our website much better
+ - Is OP
