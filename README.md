@@ -26,6 +26,8 @@ lax1dude:
  AR-DEV-1:
   - Created Eagler dev console so ppl can code with their favorite coding languages
   - Bug fixes
+  - Made the Repo
+  - Imported assets for 1.14
 
  BtPlayzX:
  - Created the Eaglercraft Launcher using Python
