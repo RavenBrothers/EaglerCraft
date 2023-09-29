@@ -3,40 +3,37 @@ import tkinter
 from tkinter import *
 
 #Eaglercraft Application Client by BtPlayzX [Member of EaglrDevs]
-
-webview.create_window('Eaglercraft', 'https://eaglerdevs.github.io/EaglerCraft/')
-webview.start()
+root = tkinter.Tk()
+Label(root, text='Eaglercraft Launcher in beta! BtPlayzX is working on it.. :>').pack()
 
 def start_client():
     webview.client.start()
 
 root = tkinter.Tk()
-root.title('EaglerCraft Launcher')
+root.title('Eaglercraft Launcher')
 root.geometry( "600x600" )
-chosen_client = 'Choose EaglerCraft Client'
+chosen_client = 'Choose Eaglercraft Client'
 
 options = [
-    "Choose EaglerCraft Client",
-    "EaglerCraft 1.3",
-    "EaglerCraft 1.5.2",
-    "EaglerCraft 1.5.2 (Tame Client)",
-    "EaglerCraft 1.5.2 (Resent Client)",
-    "EaglerCraft 1.5.2 (Precision Client)",
-    "EaglerCraft 1.8.8",
-    'EaglerCraft 1.8.8 (Fuchsiax Client)',
-    'EaglerCraft 1.14'
+    "Choose Eaglercraft Client",
+    "Eaglercraft 1.3",
+    "Eaglercraft 1.5.2",
+    "Eaglercraft 1.5.2 (Resent Client)",
+    "Eaglercraft 1.5.2 (Precision Client)",
+    "Eaglercraft 1.8.8",
+    'Eaglercraft 1.8.8 (Fuchsiax Client)',
+    'Eaglercraft 1.14'
 ]
 
 
 clients = {
-    'EaglerCraft 1.3': 'https://mopnop.github.io/eaglercraft-singleplayer/',
-    'EaglerCraft 1.5.2': 'https://html5gfiles.github.io/minecraft-15/',
-    'EaglerCraft 1.5.2 (Tame Client)': 'https://mc.tame.gg',
-    'EaglerCraft 1.5.2 (Resent Client)': 'https://resent.vercel.app',
-    'EaglerCraft 1.5.2 (Precision Client)': 'https://html5gfiles.github.io/precision-client',
-    'EaglerCraft 1.8.8': 'https://eaglercraft.q13x.com',
-    'EaglerCraft 1.8.8 (Fuchsiax Client)': 'https://elidoesexploits.github.io/eaglercraft/FuschiaX/',
-    'EaglerCraft 1.14': 'https://eaglerdevs.github.io/EaglerCraft/'
+    'Eaglercraft 1.3': 'https://mopnop.github.io/eaglercraft-singleplayer/',
+    'Eaglercraft 1.5.2': 'https://html5gfiles.github.io/minecraft-15/',
+    'Eaglercraft 1.5.2 (Resent Client)': 'https://resent.vercel.app',
+    'Eaglercraft 1.5.2 (Precision Client)': 'https://html5gfiles.github.io/precision-client',
+    'Eaglercraft 1.8.8': 'https://eaglercraft.q13x.com',
+    'Eaglercraft 1.8.8 (Fuchsiax Client)': 'https://elidoesexploits.github.io/eaglercraft/FuschiaX/',
+    'Eaglercraft 1.14': 'https://eaglerdevs.github.io/EaglerCraft/'
     
 }
   
@@ -61,7 +58,7 @@ def launch():
 
     
 
-button = Button( root , text = "Launch EaglerCraft Client", command=launch).pack()
+button = Button( root , text = "Launch Eaglercraft Client", command=launch).pack()
   
 
 
