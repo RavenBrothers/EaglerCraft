@@ -45,4 +45,4 @@ Now lets take a minute to remember our DMCA'd clients:
   - Tame Client (mc.tame.gg)
   - Original Eaglercraft 1.8.9 Client
   - Lots of unknown DMCA'd Eaglercraft 1.8.8/1.5.2 clients
-We will miss you :(
+
