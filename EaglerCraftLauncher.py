@@ -2,17 +2,14 @@ import webview
 import tkinter
 from tkinter import *
 
-#Eaglercraft Application Client by BtPlayzX [Member of EaglrDevs]
-root = tkinter.Tk()
-Label(root, text='Eaglercraft Launcher in beta! BtPlayzX is working on it.. :>').pack()
-
-def start_client():
-    webview.client.start()
+#Eaglercraft Application Client by BtPlayzX [Member of EaglerDevs]
+#remember to run this command: pip install pywebview
 
 root = tkinter.Tk()
 root.title('Eaglercraft Launcher')
 root.geometry( "600x600" )
 chosen_client = 'Choose Eaglercraft Client'
+Label(root, text='Eaglercraft Launcher in beta! BtPlayzX is working on it.. :>').pack()
 
 options = [
     "Choose Eaglercraft Client",
@@ -60,6 +57,11 @@ def launch():
 
 button = Button( root , text = "Launch Eaglercraft Client", command=launch).pack()
   
+
+
+
+
+root.mainloop()
 
 
 
