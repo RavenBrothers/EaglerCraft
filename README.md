@@ -1,4 +1,4 @@
-# EaglerCraft - A Resilient Minecraft Client (Bringing 1.14 Back)
+# EaglerCraft - A Resilient Minecraft Client (Making 1.14)
 
 **Eaglercraft Version 1.14** - Remade After DMCA
 
@@ -22,6 +22,8 @@
 - Implemented screen recording
 - Enhanced the seamless fullscreen experience
 - Created the replit
+
+#### Our Dev Team:
 
 #### AR-DEV-1
 - Paved the way for Eagler development console to code in diverse programming languages
@@ -52,5 +54,5 @@ These clients may be gone, but they are not forgotten. They contributed to the r
 
 Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey!
 
-> "It cannot be pushed away; it will live on." - The EaglerCraft Team
-For more information, visit our [official website](https://eaglerdevs.github.io/EaglerCraft/).
+> "It cannot be pushed away; it will live on." - The EaglerDevs
+For more information, visit our [official website](https://eaglerdevs.github.io/).
