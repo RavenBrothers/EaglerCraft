@@ -53,4 +53,4 @@ These clients may be gone, but they are not forgotten. They contributed to the r
 Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey!
 
 > "It cannot be pushed away; it will live on." - The EaglerCraft Team
-For more information, visit our [official website](insert_website_url_here).
+For more information, visit our [official website](eaglerdevs.github.io/EaglerCraft/).
