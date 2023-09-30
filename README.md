@@ -4,7 +4,7 @@
 
 **Mojang DMCA Notice**: Mojang, if you are considering issuing a DMCA takedown for EaglerCraft, we kindly request that you read lax1dude's message on this [website](https://github.com/lax1dude/eaglercraftx-1.8) and take our client into consideration. EaglerCraft is more than just a project; it's a testament to the Minecraft community's creativity and dedication. It's unnecessary to violently destroy our project. We hope it can continue to thrive.    
 
-#"spread ur blocky wings" -BtPlayzX
+"spread ur blocky wings" -BtPlayzX
 
 **EaglerCraft Lives On!**: Our commitment to EaglerCraft's development remains unwavering. It cannot be pushed away; it will continue to evolve and provide an exceptional Minecraft experience.
 
