@@ -41,6 +41,7 @@
 - Elevated our website's quality
 - Significantly improved the Web Dev Console
 - Earned the "OP" status
+- Improved the Eaglercraft Launcher using Python
 
 ### Honoring DMCA'd Clients
 
