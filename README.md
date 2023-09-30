@@ -25,7 +25,7 @@
 - Enhanced the seamless fullscreen experience
 - Created the replit
 
-#### Our Dev Team:
+#### Meet the EaglerBrothers™:
 
 #### AR-DEV-1
 - Paved the way for Eagler development console to code in diverse programming languages
@@ -36,6 +36,7 @@
 
 #### BtPlayzX
 - Designed the Eaglercraft Launcher using Python
+- Works on enhancing his Eaglercraft Launcher
 - Expanded the server list functionality
 - Carries the title of "OP"
 
@@ -43,7 +44,7 @@
 - Elevated our website's quality
 - Significantly improved the Web Dev Console
 - Earned the "OP" status
-- Improved the Eaglercraft Launcher using Python
+- Works on enhancing BtPlayzX's Eaglercraft Launcher
 
 ### Honoring DMCA'd Clients
 
