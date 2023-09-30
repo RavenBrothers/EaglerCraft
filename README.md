@@ -1,4 +1,4 @@
-# EaglerCraft - A Resilient Minecraft Client
+# EaglerCraft - A Resilient Minecraft Client (Bringing 1.14 Back)
 
 **Eaglercraft Version 1.14** - Remade After DMCA
 
