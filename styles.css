@@ -1,5 +1,11 @@
 body {
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
     background-size: cover; 
     margin: 0;
     padding: 0;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    width: 100%; /* Ensure the body takes the full viewport width */
 }
