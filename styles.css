@@ -22,7 +22,7 @@
         #background {
             width: 50%; /* Adjust the width for the desired speed of movement */
             height: 100%;
-            background: url('minecraft-background.jpg') repeat-x; /* Replace with your background image */
+            background: url('minecraft-background.png') repeat-x; /* Replace with your background image */
             animation: moveBackground 30s linear infinite; /* Adjust the duration and speed */
         }
 
