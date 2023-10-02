@@ -55,6 +55,7 @@
 These clients may be gone, but their legacy lives on in the Minecraft community. Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey! 🌍🎮
 
 > "It cannot be pushed away; it will live on." - The EaglerDevs
+
 > "Your goal is to make others fear and submit." - FlamePVPCodes
 
 
