@@ -25,6 +25,13 @@ body {
             transform: translate(-50%, -50%);
             font-size: 36px;
         }
+    #title-image {
+       width: 200px; 
+       height: auto; /* Maintain the aspect ratio */
+}
+   #edition-link {
+    font-size: 18px; 
+}
   @keyframes cameraMovement {
             0% {
                 background-position: 0% 50%;
