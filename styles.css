@@ -69,3 +69,11 @@
     left: 50%;
     transform: translateX(-50%);
 }
+/* Styles for the .camera element */
+.camera {
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden; /* Hide overflowing content */
+    background-color: black; /* Fallback background color */
+}
