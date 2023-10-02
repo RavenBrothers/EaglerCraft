@@ -19,11 +19,13 @@
 	<body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
 		<img src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/Eaglercraft.png" alt="Title Image" id="title-image">
 		<img src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/edition.png" alt="Edition Image" id="edition-link">  
+		<div class="camera">
+			 </div>
 	 <script>
 const camera = document.querySelector('.camera');
 let cameraX = 0;
 
-function animateCamera() {
+var function animateCamera() {
    cameraX += 1; // Adjust the speed of the camera movement here
    camera.style.transform = `translateX(${cameraX}px)`;
    requestAnimationFrame(animateCamera);
