@@ -1,4 +1,6 @@
-![Favicon](https://github.com/EaglerDevs/EaglerCraft/assets/115883839/c2197714-ae23-46c8-97dd-da668a5ea551)
+<p align="center">
+  <img src="https://github.com/EaglerDevs/EaglerCraft/assets/115883839/c2197714-ae23-46c8-97dd-da668a5ea551" alt="Favicon">
+</p>
 
 ---
 
