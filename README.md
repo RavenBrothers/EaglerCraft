@@ -1,7 +1,7 @@
 # EaglerCraft - A Resilient Minecraft Client (Making 1.14)
 
 **Eaglercraft Version 1.14** - Remade After DMCA
-
+**Discord**:https://discord.gg/Vf8gx85t
 **Mojang DMCA Notice**: Mojang, if you are considering issuing a DMCA takedown for EaglerCraft, we kindly request that you read lax1dude's message on this [website](https://github.com/lax1dude/eaglercraftx-1.8) and take our client into consideration. EaglerCraft is more than just a project; it's a testament to the Minecraft community's creativity and dedication. It's unnecessary to violently destroy our project. We hope it can continue to thrive.    
 
 "spread ur blocky wings" -BtPlayzX
