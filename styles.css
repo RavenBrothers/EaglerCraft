@@ -27,7 +27,7 @@ body {
             font-size: 36px;
         }
     #title-image {
-       width: 50px; 
+       width: 500px; 
        height: 25vh; /* Maintain the aspect ratio */
             display: flex;
             align-items: center;
