@@ -58,5 +58,7 @@ These clients may be gone, but their legacy lives on in the Minecraft community.
 
 > "Your goal is to make others fear and submit." - FlamePVPCodes
 
+> "Spread ur blocky wings" - BtPlayzX
+
 
 For more exciting updates, visit our [official website](https://eaglerdevs.github.io/) and let's keep the 🔥fire🔥 burning bright in the world of Minecraft! 🌟🎮
