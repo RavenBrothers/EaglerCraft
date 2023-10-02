@@ -4,8 +4,20 @@ body {
     background-attachment: fixed; 
     background-position: center center;
     background-size: cover; 
+    position: relative;
+    animation: cameraMovement 20s linear infinite;
     margin: 0;
     padding: 0;
     height: 100vh; /* Ensure the body takes the full viewport height */
     width: 100%; /* Ensure the body takes the full viewport width */
 }
+  @keyframes cameraMovement {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
