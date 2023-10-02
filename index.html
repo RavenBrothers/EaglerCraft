@@ -25,13 +25,14 @@
 const camera = document.querySelector('.camera');
 let cameraX = 0;
 
-var function animateCamera() {
+const animateCamera = () => {
    cameraX += 1; // Adjust the speed of the camera movement here
    camera.style.transform = `translateX(${cameraX}px)`;
    requestAnimationFrame(animateCamera);
 }
 
 animateCamera();
+
    </script>
 
  <script>
