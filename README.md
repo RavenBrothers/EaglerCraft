@@ -1,5 +1,3 @@
-Wassup🔥FlamePVP🔥! Check out this awesome update on EaglerCraft Version 1.14! 🚀
-
 **Eaglercraft Version 1.14** - Remade After DMCA
 -
 💬 **Discord**:[Official Discord](https://discord.gg/Vf8gx85t).
