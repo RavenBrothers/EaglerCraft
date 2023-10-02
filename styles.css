@@ -1,18 +1,39 @@
-  body {
+ body {
             margin: 0;
             padding: 0;
             height: 100vh;
             font-family: Arial, sans-serif;
-            background:  no-repeat fixed center/cover;
+            background: no-repeat fixed center/cover;
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden; /* Prevents scrolling */
+        }
+
+        #background-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%; /* Adjust the width for the desired speed of movement */
+            height: 100%;
+            z-index: -1; /* Place it behind other content */
+        }
+
+        #background {
+            width: 50%; /* Adjust the width for the desired speed of movement */
+            height: 100%;
+            background: url('minecraft-background.jpg') repeat-x; /* Replace with your background image */
+            animation: moveBackground 30s linear infinite; /* Adjust the duration and speed */
+        }
+
+        #content {
+            z-index: 1; /* Place content in front of the background */
+            text-align: center;
+            color: #ffffff;
         }
 
         #title {
             font-size: 36px;
-            text-align: center;
-            color: #ffffff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow to text */
         }
 
@@ -28,8 +49,5 @@
 
         #edition-link {
             font-size: 18px;
-            text-align: center;
-            color: #ffffff;
             text-decoration: none;
-            display: block;
         }
