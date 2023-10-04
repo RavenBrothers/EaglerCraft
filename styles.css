@@ -63,7 +63,7 @@
     display: block;
     text-align: center;
     position: absolute;
-    top: 50%; /* Adjust as needed */
+    top: 60%; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
 }
