@@ -24,7 +24,7 @@ We have a Code of Conduct in place to ensure a positive and inclusive community.
 
 ## Community
 
-Join our community of developers, share your ideas, and collaborate with others. We have a vibrant forum where you can connect with fellow contributors and get support: [Eagler Devs Community](https://community.eaglerdevs.com).
+Join our community of developers, share your ideas, and collaborate with others. We have a vibrant forum where you can connect with fellow contributors and get support: [Eagler Devs Community](https://github.com/EaglerDevs/EaglerCraft).
 
 ## Review Process
 
