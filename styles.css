@@ -68,12 +68,12 @@
     transform: translateX(-50%);
 }
 
- #loading-screen {
+  #loading-screen {
         position: fixed;
         top: 0;
         left: 0;
-        width: 1020px; /* Set the fixed width */
-        height: 1040px; /* Set the fixed height */
+        width: 100%;
+        height: 100%;
         background-color: rgba(255, 255, 255, 0.9);
         display: flex;
         justify-content: center;
@@ -82,6 +82,11 @@
     }
 
     #loading-image {
-        width: 100px; /* Adjust the size as needed */
-        height: 100px; /* Adjust the size as needed */
+        width: 100px;
+        height: 100px; 
+    }
+
+
+    #content {
+
     }
