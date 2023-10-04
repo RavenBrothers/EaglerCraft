@@ -12,9 +12,7 @@ async function fetchAndDisplayJSON() {
         const jsonContent = document.getElementById('json-content');
         jsonContent.textContent = JSON.stringify(jsonData, null, 2); // Format the JSON for better readability
     } catch (error) {
- console.error('An error occurred:', error.message);
-
-        console.error(error.stack);
+ console.error('An error occurred!', error.message);
     }
 }
 
