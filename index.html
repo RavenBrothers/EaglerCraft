@@ -18,8 +18,10 @@
 <body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
     <img src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/Eaglercraft.png" alt="Title Image" id="title-image">
     <img src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/edition.png" alt="Edition Image" id="edition-link">
-    <div class="camera-container">
-                <div class="camera">
+<div id="xml-content">
+        <script src="xml.js"></script>
+    </div>
+         </div>
         <script>
             var backgroundImages = [
                 'https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/background/panorama_0.png',
@@ -29,12 +31,9 @@
                 'https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/background/panorama_4.png',
                 'https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/data/gui/title/background/panorama_5.png',
             ];
-        const cameraContainer = document.querySelector('.camera-container');
-        const cameraBackground = cameraContainer.querySelector('.camera::before');
-        
             var randomIndex = Math.floor(Math.random() * backgroundImages.length);
             document.body.style.backgroundImage = 'url(' + backgroundImages[randomIndex] + ')';
         </script>
-    </div>
+
 </body>
 </html>
