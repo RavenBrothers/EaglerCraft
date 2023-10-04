@@ -11,9 +11,7 @@ async function fetchAndDisplayJSON() {
         
         const jsonContent = document.getElementById('json-content');
         jsonContent.textContent = JSON.stringify(jsonData, null, 2); // Format the JSON for better readability
-    } catch (error) {
- console.log('An error occurred!Try Reloading...', json.message);
-    }
+    } 
 }
 
 window.addEventListener('load', fetchAndDisplayJSON);
