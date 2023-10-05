@@ -18,6 +18,7 @@
 - ⚙️ Ported the Minecraft 1.8 client src to TeaVM
 - 🔧 Developed EaglercraftXBungee
 - 🏗️ Established the patch and build system
+- 🤼 Tries to bring the Eaglercraft community together
 
 👩‍💻 **ayunami2000**
 - 🛠️ Contributed many bug fixes
@@ -25,6 +26,7 @@
 - 📹 Implemented screen recording
 - 🖥️ Enhanced the seamless fullscreen experience
 - 📦 Created the replit
+- 🤼 Tries to bring the Eaglercraft community together
 
 👬 **Meet the EaglerBrothers™**:
 
@@ -34,12 +36,15 @@
 - 📁 Initiated the repository
 - 🎮 Imported assets for 1.14
 - 💥 Holds the title of "OP" (Overpowered) in the project
+- 🤼 Tries to bring the Eaglercraft community together
+- 🚀 The best brother i ever had - FlameV3
 
 👨‍💻 **BtPlayzX**
 - 🚀 Designed the Eaglercraft Launcher using Python
 - 🛠️ Works on enhancing his Eaglercraft Launcher
 - 🌐 Expanded the server list functionality
 - 👑 Carries the title of "OP"
+- 🤼 Tries to bring the Eaglercraft community together
 
 👨‍💻 **FlamePVPCodes**
 - 🌟 Elevated our website's quality
