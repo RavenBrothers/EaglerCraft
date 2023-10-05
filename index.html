@@ -21,19 +21,15 @@
             <img src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/eagler/gui/credits.txt.gui.eagler.png" usemap="#image-map" alt="CREDITS">
 
 <map name="image-map">
-  <area shape="rect" coords="10,10,50,50" alt="CREDITS" href="https://eaglerdevs.github.io/CREDITS.TXT">
+  <area shape="rect" coords="10,10,50,50" alt="CREDITS" href="https://eaglerdevs.github.io/EaglerCraft/CREDITS.TXT"target="_blank">
 </map>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var areas = document.querySelectorAll('area');
     areas.forEach(function(area) {
       area.addEventListener('click', function(event) {
-        // Handle the click event for each area here
-        // You can prevent the default behavior and perform custom actions
+   
         event.preventDefault();
-
-        // Example: Open the href URL in a new tab/window
-        window.open(this.href, '_blank');
       });
     });
   });
