@@ -65,6 +65,7 @@
 - **Tame Client (mc.tame.gg)**
 - **Original Eaglercraft 1.8.9 Client**
 - **Numerous unidentified DMCA'd Eaglercraft 1.8.8/1.5.2 clients**
+- **Dark Client (Dark.vercel.app)**
 
 These clients may be gone, but their legacy lives on in the Eaglercraft community. Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey! 🌍🎮
 
