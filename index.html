@@ -16,7 +16,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
+    <div id="xml-content"></div>
 
+    <script>
+
+        var xhr = new XMLHttpRequest();
+
+        var xmlFilePath = "https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/log4j2.xml";
+
+        xhr.open("GET", xmlFilePath, true);
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                // Parse the XML response
+                var xmlData = xhr.responseXML;
+
+                var items = xmlData.getElementsByTagName("item");
+                var output = "<ul>";
+                for (var i = 0; i < items.length; i++) {
+                    var name = items[i].getElementsByTagName("name")[0].textContent;
+                    var description = items[i].getElementsByTagName("description")[0].textContent;
+                    output += "<li><strong>" + name + ":</strong> " + description + "</li>";
+                }
+                output += "</ul>";
+
+                document.getElementById("xml-content").innerHTML = output;
+            }
+        };
+
+        // Send the request
+        xhr.send();
+    </script>
 <div id="loading-screen">
     <img id="loading-image" src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/eagler/eagtek.gif" alt="Loading...">
        <script>
