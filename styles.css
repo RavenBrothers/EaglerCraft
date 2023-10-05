@@ -86,6 +86,17 @@
         width: 50%;
         height: 80%; 
        display: flex;
+         #loading-image {
+        width: 50%;
+        height: 80%; 
+        text-align: center; /* Horizontally center text */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Vertically center text */
+        display: flex;
+    }
+
     }
 
 
