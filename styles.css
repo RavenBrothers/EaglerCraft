@@ -1,47 +1,50 @@
- body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            background: no-repeat fixed center/cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden; /* Prevents scrolling */
-        }
+/* Reset default styles and set up the body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: no-repeat fixed center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
+}
 
-        #background-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 200%; /* Adjust the width for the desired speed of movement */
-            height: 100%;
-            z-index: -1; /* Place it behind other content */
-        }
+/* Create a container for the background image */
+#background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* Adjust the width for the desired speed of movement */
+    height: 100%;
+    z-index: -1; /* Place it behind other content */
+}
 
-        #background {
-            width: 50%; /* Adjust the width for the desired speed of movement */
-            height: 100%;
-        }
+/* Style the background image */
+#background {
+    width: 50%; /* Adjust the width for the desired speed of movement */
+    height: 100%;
+}
 
-        #content {
-            z-index: 1; /* Place content in front of the background */
-            text-align: center;
-            color: #ffffff;
-        }
-
-/* Centering the title element */
-#title {
-    font-size: 36px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    text-align: center; /* Horizontally center text */
+/* Center content vertically and horizontally */
+#content {
+    z-index: 1; /* Place content in front of the background */
+    text-align: center;
+    color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Vertically center text */
+    transform: translate(-50%, -50%);
 }
 
-/* Centering the title image */
+/* Style the title element */
+#title {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the title image */
 #title-image {
     width: 500px;
     max-width: 90%;
@@ -50,13 +53,9 @@
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-/* Centering the edition link */
+/* Style the edition link */
 #edition-link {
     font-size: 18px;
     text-decoration: none;
@@ -68,42 +67,9 @@
     transform: translateX(-50%);
 }
 
-  #loading-screen {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0px;
-        width: 80%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.9);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-        text-align: center;
-    }
-
-    #loading-image {
-        width: 50%;
-        height: 80%; 
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); /* Vertically center text */
-        display: flex;
-    } */
-
-    
-
-
-    #content {
-
-    }
+/* Style the "CREDITS" image */
 img[alt="CREDITS"]  {
-position: absolute;
-top: 10px; 
-right: 10px;
-}  
-
-
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+}
