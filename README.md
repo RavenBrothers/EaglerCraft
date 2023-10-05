@@ -1,6 +1,9 @@
 **Eaglercraft Version 1.14** - Remade After DMCA
 -
-💬 **Discord**:[Official Discord](https://discord.gg/Vf8gx85t).
+💬 **Discord**: [Official Discord](https://discord.gg/Vf8gx85t).          
+
+⏰ **Expected Arrival**: November
+
 
 🚨 **Mojang DMCA Notice**: Hey Mojang, before you drop that DMCA hammer, take a moment to read lax1dude's heartfelt plea on this [website](https://github.com/lax1dude/eaglercraftx-1.8). EaglerCraft isn't just a project; it's a symbol of Minecraft community creativity and dedication. Let's keep the blocky wings spread and let it thrive! 🦅🧱
 
