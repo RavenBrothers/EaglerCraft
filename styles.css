@@ -68,7 +68,7 @@
     transform: translateX(-50%);
 }
 
-  #loading-screen {
+/*   #loading-screen {
         position: fixed;
         top: 0;
         left: 0;
@@ -95,7 +95,7 @@
         left: 50%;
         transform: translate(-50%, -50%); /* Vertically center text */
         display: flex;
-    }
+    } */
 
     }
 
