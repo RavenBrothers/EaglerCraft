@@ -46,7 +46,7 @@
 - 🌐 Significantly improved the Web Dev Console
 - 🏆 Earned the "OP" status
 - 🚀 Works on enhancing BtPlayzX's Eaglercraft Launcher
-
+- 🧑‍💻 Knows all langs accept for java
 ### Honoring DMCA'd Clients
 
 🕯️ Let's take a moment to remember our DMCA'd clients, who were once a part of our journey:
