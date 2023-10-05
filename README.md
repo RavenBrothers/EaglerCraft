@@ -47,6 +47,12 @@
 - 🏆 Earned the "OP" status
 - 🚀 Works on enhancing BtPlayzX's Eaglercraft Launcher
 - 🧑‍💻 Knows all langs accept for java
+- 🐛 Meticulously fixed bugs
+- 💪 First code was skidded resent 
+- 🤼 Tries to bring the Eaglercraft community together
+- 🔥 Founder Of FlameClient
+- 🥇 Owned the achievement of knowing almost every code
+
 ### Honoring DMCA'd Clients
 
 🕯️ Let's take a moment to remember our DMCA'd clients, who were once a part of our journey:
@@ -55,13 +61,13 @@
 - **Original Eaglercraft 1.8.9 Client**
 - **Numerous unidentified DMCA'd Eaglercraft 1.8.8/1.5.2 clients**
 
-These clients may be gone, but their legacy lives on in the Minecraft community. Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey! 🌍🎮
+These clients may be gone, but their legacy lives on in the Eaglercraft community. Together, we continue to build and grow, embracing new challenges and innovations. EaglerCraft remains a testament to our dedication and love for Minecraft. Join us in this exciting journey! 🌍🎮
 
 > "It cannot be pushed away; it will live on." - AR-DEV-1
 
 > "Your goal is to make others fear and submit." - FlamePVPCodes
 
-> "Spread ur blocky wings" - BtPlayzX
+> "Spread your blocky wings" - BtPlayzX
 
 
-For more exciting updates, visit our [official website](https://eaglerdevs.github.io/) and let's keep the 🔥fire🔥 burning bright in the world of Minecraft! 🌟🎮
+For more exciting updates, visit our [official website](https://eaglerdevs.github.io/) and let's keep the 🔥fire🔥 burning bright in the world of Eaglercraft! 🌟🎮
