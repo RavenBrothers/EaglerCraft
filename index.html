@@ -16,8 +16,63 @@
     <script src="fix-webm-duration.js"></script>
 </head>
 <body style="margin: 0; width: 100vw; height: 100vh; overflow: hidden;">
+    <div id="xml-content"></div>
+
+    <script>
+       
+        const xmlString = `<?xml version="1.0" encoding="UTF-8"?>
+        <Configuration status="WARN" packages="net.minecraft,com.mojang">
+       <Appenders>
+        <!-- Console Appender -->
+        <Console name="SysOut" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level]: %msg%n" />
+        </Console>
+        
+        <!-- Queue Appender -->
+        <Queue name="ServerGuiConsole">
+            <PatternLayout pattern="[%d{HH:mm:ss} %level]: %msg%n" />
+        </Queue>
+        
+        <!-- Rolling Random Access File Appender -->
+        <RollingRandomAccessFile name="File" fileName="logs/latest.log" filePattern="logs/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level]: %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingRandomAccessFile>
+    </Appenders>
+    
+    <Loggers>
+        <Root level="info">
+            <Filters>
+                <!-- Deny NETWORK_PACKETS Marker -->
+                <MarkerFilter marker="NETWORK_PACKETS" onMatch="DENY" onMismatch="NEUTRAL" />
+            </Filters>
+            
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="ServerGuiConsole"/>
+        </Root>
+    </Loggers>
+        </Configuration>`;
+
+        // Parse XML string and convert it to an HTML element
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+        // Create a string with formatted XML content
+        const formattedXml = new XMLSerializer().serializeToString(xmlDoc);
+
+        // Display the formatted XML as HTML
+        const xmlContent = document.getElementById('xml-content');
+        xmlContent.innerHTML = `<pre>${formattedXml}</pre>`;
+    </script>
+    
     <div id="loading-screen">
+        
         <center>
+            
             <img id="loading-image" src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/eagler/eagtek.gif" alt="Loading...">
         </center>
         <script>
@@ -29,6 +84,7 @@
                 document.getElementById('content').style.display = 'block';
             }, 6000);
         </script>
+        
     </div>
     
     <div id="game-frame">
@@ -42,6 +98,5 @@
             <area shape="rect" coords="10,10,50,50" alt="CREDITS" href="https://eaglerdevs.github.io/EaglerCraft/CREDITS.TXT" target="_blank">
         </map>
     </div>
-     <object data="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/log4j2.xml" type="application/xml"></object>
 </body>
 </html>
