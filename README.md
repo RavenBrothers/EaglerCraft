@@ -75,5 +75,7 @@ These clients may be gone, but their legacy lives on in the Eaglercraft communit
 
 > "Spread your blocky wings" - BtPlayzX
 
+> "Nostalgia reminds you to relive the old memories" - Ink Boi-Kun
+
 
 For more exciting updates, visit our [official website](https://eaglerdevs.github.io/) and let's keep the 🔥fire🔥 burning bright in the world of Eaglercraft! 🌟🎮
