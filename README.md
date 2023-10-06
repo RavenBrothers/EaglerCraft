@@ -71,6 +71,7 @@
 
 - **Tame Client (mc.tame.gg)**
 - **Original Eaglercraft 1.8.9 Client**
+- **Original Eaglercraft 1.12 Client**
 - **Numerous unidentified DMCA'd Eaglercraft 1.8.8/1.5.2 clients**
 - **Dark Client (Dark.vercel.app)**
 
