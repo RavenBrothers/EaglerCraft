@@ -12,10 +12,19 @@ private static Relay currentRelay = null;
 private static Relay newRelayport = null;
 
 }
+
  public class setUpRelay {
  private static Relay setUp = null;
  private static Relay setUpNewRelayPort = true;
+  
  }
+
 public class startRelay {
- private static Relay startRelay = null;
+private static Relay startRelay = null;
+ 
+}
+
+public class wss {
+private static wss relayWSS = null;
+
 }
