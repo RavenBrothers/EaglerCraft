@@ -21,10 +21,15 @@ private static Relay newRelayport = null;
 
 public class startRelay {
 private static Relay startRelay = null;
- 
+private static Relay relayWait = null;
+private static Relay relayWSS = true;
+private static Relay startWSS = null;
+
 }
 
-public class wss {
-private static wss relayWSS = null;
-
+public class WSS {
+private static WSS relayWSS = null;
+private static WSS relayWSSStart = null;
+private static WSS portRelayWSS = null;
+ 
 }
