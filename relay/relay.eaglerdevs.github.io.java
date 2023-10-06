@@ -4,7 +4,8 @@ package io.eaglerdevs.eaglercraft.relay;
 
 import relay.eaglerdevs.github.io;
 import net.lax1dude.eaglercraft;
-import net.lax1dude.eaglercraft;
+import io.eaglerdevs.eaglercraft;
+import io.eaglerdevs.eaglercraft.relay;
 
 public class Relay {
 private static Relay newRelay = null;
