@@ -24,16 +24,31 @@
         </center>
         <script>
             setTimeout(function() {
-                // Hide the loading screen
                 document.getElementById('loading-screen').style.display = 'none';
 
-                // Show the content
-                document.getElementById('content').style.display = 'block';
-            }, 6000);
+                document.getElementById('enable-music').classList.remove('hidden');
+    }, 8000);
         </script>
         
     </div>
-    
+       <div id="enable-image">
+    <img id="enable-music" src="https://raw.githubusercontent.com/EaglerDevs/EaglerCraft/main/1.14.4/assets/eagler/enable.png" alt="Enable...">
+           <script>
+               function handleButtonClick() {
+                   
+    document.getElementById('enable-music').classList.add('hidden');
+
+    // Show the content
+    document.getElementById('content').style.display = 'block';
+}
+
+window.addEventListener('load', function() {
+    loadingScreen();
+
+    document.getElementById('button').addEventListener('click', handleButtonClick);
+});
+           </script>
+           </div>
     <div id="game-frame">
         <div id="credits">
             <a href="https://eaglerdevs.github.io/EaglerCraft/CREDITS.TXT" target="_blank">
