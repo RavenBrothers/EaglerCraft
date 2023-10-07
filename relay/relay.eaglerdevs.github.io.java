@@ -1,11 +1,21 @@
-package net.lax1dude.eaglercraft;
-package io.eaglerdevs.eaglercraft;
-package io.eaglerdevs.eaglercraft.relay;
+package net.lax1dude.eaglercraft.*;
+package io.eaglerdevs.eaglercraft.*;
+package io.eaglerdevs.eaglercraft.relay.*;
 
-import relay.eaglerdevs.github.io;
-import net.lax1dude.eaglercraft;
-import io.eaglerdevs.eaglercraft;
-import io.eaglerdevs.eaglercraft.relay;
+import relay.eaglerdevs.github.io.*;
+import net.lax1dude.eaglercraft.*;
+import io.eaglerdevs.eaglercraft.*;
+import io.eaglerdevs.eaglercraft.relay.*;
+
+import javax.net.ssl.*;
+import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+import java.security.cert.X509Certificate;
+
 
 public class Relay {
 private static Relay newRelay = null;
@@ -33,4 +43,11 @@ private static WSS relayWSS = null;
 private static WSS relayWSSStart = null;
 private static WSS portRelayWSS = null;
  
+}
+
+public class relayPort {
+public static final int RELAY_PORT = 50982;
+  public static void main(String[] args) {
+        System.out.println("Relay has started on" + RELAY_PORT);
+    }
 }
