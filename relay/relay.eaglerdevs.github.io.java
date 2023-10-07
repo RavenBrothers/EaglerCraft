@@ -16,6 +16,10 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 public class Relay {
 private static Relay newRelay = null;
@@ -45,9 +49,29 @@ private static WSS portRelayWSS = null;
  
 }
 
-public class relayPort {
-public static final int RELAY_PORT = 50982;
+public class newServerforRelayPort {
+public static final int SERVER_PORT = 443;
   public static void main(String[] args) {
-        System.out.println("Relay has started on" + RELAY_PORT);
+        try {
+          
+            ServerSocket serverSocket = new ServerSocket(PORT);
+            System.out.println("Server has started on port " + PORT);
+
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Client connected: " + clientSocket.getInetAddress());
+             
+                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+
+                out.println("Hello, Client! This is the server for EaglerDevs Relay Port.");
+ 
+                clientSocket.close();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+       }
     }
 }
+
+
+    
