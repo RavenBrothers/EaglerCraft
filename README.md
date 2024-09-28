@@ -5,7 +5,7 @@
 ⏰ **Expected Arrival**: November or December
 
 
-🚨 **Mojang DMCA Notice**: Hey Mojang, before you drop that DMCA hammer, take a moment to read lax1dude's heartfelt plea on this [website](https://github.com/lax1dude/eaglercraftx-1.8). EaglerCraft isn't just a project; it's a symbol of Minecraft community creativity and dedication. Let's keep the blocky wings spread and let it thrive! 🦅🧱
+🚨 **Mojang DMCA Notice**: Hey Mojang, before you drop that DMCA hammer, take a moment to read lax1dude's heartfelt plea on this [website](https://github.com/lax1dude/eaglercraftx-1.8). EaglerCraft isn't just a project; it's a symbol of Minecraft community creativity and dedication. Let's let it spread and thrive! 🦅🧱
 
 💻 **NOTE!**: If you would like to embed Eaglercraft into a application window watch BtPlayzX's YouTube video on how to put Eaglercraft 1.5.2 on an application window! Link: https://www.youtube.com/watch?v=MHPPb6mH6WA
 
